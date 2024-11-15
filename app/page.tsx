@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const simli_faceid = "23ba2bcb-d63e-4ebc-95ae-10512c234c68";
 const elevenlabs_voiceid = "pFZP5JQG7iQjIQuC4Bku"; //female
-const SOLANA_CONTRACT_ADDRESS = "coming-soon";
+const SOLANA_CONTRACT_ADDRESS = "9NRpC8eyuy3RassgfKtG17K5mty1HNopZrJoCwRppump";
 
 const simliClient = new SimliClient();
 
@@ -238,7 +238,7 @@ Remember:
               <span>GitHub</span>
             </a>
             <a
-              href="https://pumpfun.io/token/"
+              href="https://www.pump.fun/9NRpC8eyuy3RassgfKtG17K5mty1HNopZrJoCwRppump"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-[#34ff53] rounded-full hover:opacity-80 transition-opacity"
