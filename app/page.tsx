@@ -6,7 +6,7 @@ import { FaXTwitter, FaGithub, FaRocket } from "react-icons/fa6";
 import Image from 'next/image';
 
 const simli_faceid = "23ba2bcb-d63e-4ebc-95ae-10512c234c68";
-const elevenlabs_voiceid = "XB0fDUnXU5powFXDhCwa"; //female
+const elevenlabs_voiceid = "cgSgspJ2msm6clMCkdW9"; //female
 const SOLANA_CONTRACT_ADDRESS = "coming-soon";
 
 const simliClient = new SimliClient();
