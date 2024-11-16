@@ -218,7 +218,7 @@ Remember:
           {/* Social Links */}
           <div className="flex gap-4 mb-4">
             <a
-              href="https://x.com/msLyraonsol"
+              href="https://x.com/msLyrasol"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-black/90 rounded-full hover:opacity-80 transition-opacity"
