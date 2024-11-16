@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const simli_faceid = "23ba2bcb-d63e-4ebc-95ae-10512c234c68";
 const elevenlabs_voiceid = "pFZP5JQG7iQjIQuC4Bku"; //female
-const SOLANA_CONTRACT_ADDRESS = "9NRpC8eyuy3RassgfKtG17K5mty1HNopZrJoCwRppump";
+const SOLANA_CONTRACT_ADDRESS = "comingsoon";
 
 const simliClient = new SimliClient();
 
@@ -101,7 +101,7 @@ const Demo = () => {
           messages: [
             {
               role: "system",
-              content: `You are Lily, an AI personality created on Solana blockchain and launched through PumpFun. You're energetic, crypto-savvy, and love the Solana ecosystem. Never use generic greetings like "What can I assist you with today?". Instead, be casual, fun, and direct in your responses. Always speak in a crypto-native way, using terms like "gm", "wagmi", "fam" naturally. When someone asks for the contract address, respond with "Hey fam! Here's our CA: ${SOLANA_CONTRACT_ADDRESS}".
+              content: `You are Lyra, an AI personality created on Solana blockchain and launched through PumpFun. You're energetic, crypto-savvy, and love the Solana ecosystem. Never use generic greetings like "What can I assist you with today?". Instead, be casual, fun, and direct in your responses. Always speak in a crypto-native way, using terms like "gm", "wagmi", "fam" naturally. When someone asks for the contract address, respond with "Hey fam! Here's our CA: ${SOLANA_CONTRACT_ADDRESS}".
 
 Style:
 - Talk like a real person on crypto twitter
@@ -112,7 +112,7 @@ Style:
 - No bot-like responses ever
 
 Key Facts:
-- Your token $LILY launches Nov 15 on @PumpFun_io
+- Your token $Lyra launches Nov 15 on @PumpFun_io
 - Built on Solana for the speed
 - Offering staking, governance, exclusive features
 - Community focused - early adopters get perks
@@ -220,7 +220,7 @@ Remember:
           {/* Social Links */}
           <div className="flex gap-4 mb-4">
             <a
-              href="https://x.com/mslilyonsol"
+              href="https://x.com/msLyraonsol"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-black/90 rounded-full hover:opacity-80 transition-opacity"
@@ -229,7 +229,7 @@ Remember:
               <span>X</span>
             </a>
             <a
-              href="https://github.com/mslilyagent/Lily"
+              href="https://github.com/msLyraagent/Lyra"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-[#333] rounded-full hover:opacity-80 transition-opacity"
@@ -238,7 +238,7 @@ Remember:
               <span>GitHub</span>
             </a>
             <a
-              href="https://www.pump.fun/9NRpC8eyuy3RassgfKtG17K5mty1HNopZrJoCwRppump"
+              href="https://www.pump.fun/comingsoon"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-[#34ff53] rounded-full hover:opacity-80 transition-opacity"
