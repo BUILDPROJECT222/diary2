@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const simli_faceid = "23ba2bcb-d63e-4ebc-95ae-10512c234c68";
 const elevenlabs_voiceid = "pFZP5JQG7iQjIQuC4Bku"; //female
-const SOLANA_CONTRACT_ADDRESS = "comingsoon";
+const SOLANA_CONTRACT_ADDRESS = "F8AfQLGANzxFnxNCQUBsruV2sF1e9cAn8jmQSN2vpump";
 
 const simliClient = new SimliClient();
 
@@ -236,7 +236,7 @@ Remember:
               <span>GitHub</span>
             </a>
             <a
-              href="https://www.pump.fun/comingsoon"
+              href="https://pump.fun/coin/F8AfQLGANzxFnxNCQUBsruV2sF1e9cAn8jmQSN2vpump"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 bg-[#34ff53] rounded-full hover:opacity-80 transition-opacity"
